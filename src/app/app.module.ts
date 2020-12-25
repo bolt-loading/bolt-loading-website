@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { LogoComponent } from './logo/logo.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { InstallationComponent } from './installation/installation.component';
+import { HomeSplashComponent } from './home-splash/home-splash.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { InstallationComponent } from './installation/installation.component';
     HomeComponent,
     HeaderComponent,
     LogoComponent,
-    InstallationComponent
+    InstallationComponent,
+    HomeSplashComponent
   ],
   imports: [
     BrowserModule,
