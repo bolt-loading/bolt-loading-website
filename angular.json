@@ -49,10 +49,11 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/svg/*"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/style/styles.scss"
             ],
             "scripts": []
           },

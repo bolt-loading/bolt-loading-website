@@ -4,15 +4,23 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { LogoComponent } from './logo/logo.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { InstallationComponent } from './installation/installation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    LogoComponent,
+    InstallationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

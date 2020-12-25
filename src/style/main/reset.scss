@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: $kournikova;
+}
