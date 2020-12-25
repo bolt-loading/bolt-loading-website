@@ -9,6 +9,9 @@ import { LogoComponent } from './logo/logo.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { InstallationComponent } from './installation/installation.component';
 import { HomeSplashComponent } from './home-splash/home-splash.component';
+import { PhoneSvgComponent } from './phone-svg/phone-svg.component';
+import { PhoneMockupComponent } from './phone-mockup/phone-mockup.component';
+import { FormButtonComponent } from './form-button/form-button.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { HomeSplashComponent } from './home-splash/home-splash.component';
     HeaderComponent,
     LogoComponent,
     InstallationComponent,
-    HomeSplashComponent
+    HomeSplashComponent,
+    PhoneSvgComponent,
+    PhoneMockupComponent,
+    FormButtonComponent
   ],
   imports: [
     BrowserModule,

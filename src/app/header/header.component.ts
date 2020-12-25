@@ -4,8 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-header',
   template: `
     <header>
-      <div class="container">
+      <div class="container d-flex align-items-center justify-content-between">
         <app-logo></app-logo>
+        <app-form-button [title]="'Documentation'" [color]="'yellow'"></app-form-button>
       </div>
     </header>
   `,
