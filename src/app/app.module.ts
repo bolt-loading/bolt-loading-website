@@ -21,6 +21,7 @@ import { BookSvgComponent } from './book-svg/book-svg.component';
 import { ColorsSvgComponent } from './colors-svg/colors-svg.component';
 import { OpenSourceSvgComponent } from './open-source-svg/open-source-svg.component';
 import { ServicesSectionComponent } from './services-section/services-section.component';
+import { DevelopmentEnvironmentsSectionComponent } from './development-environments-section/development-environments-section.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ServicesSectionComponent } from './services-section/services-section.co
     BookSvgComponent,
     ColorsSvgComponent,
     OpenSourceSvgComponent,
-    ServicesSectionComponent
+    ServicesSectionComponent,
+    DevelopmentEnvironmentsSectionComponent
   ],
   imports: [
     BrowserModule,

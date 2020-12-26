@@ -1,5 +1,6 @@
 .service-item {
   display: flex;
+  align-items: center;
   margin-bottom: 217px;
 
   figure {
@@ -9,6 +10,7 @@
     justify-content: center;
     min-width: 100px;
     min-height: 100px;
+    margin: 16px;
 
     &::before,
     &::after {

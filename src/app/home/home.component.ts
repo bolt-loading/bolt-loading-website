@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <app-home-splash></app-home-splash>
     <app-services-section></app-services-section>
+    <app-development-environments-section></app-development-environments-section>
   `,
   styles: [
   ]
