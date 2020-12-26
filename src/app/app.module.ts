@@ -13,6 +13,7 @@ import { PhoneSvgComponent } from './phone-svg/phone-svg.component';
 import { PhoneMockupComponent } from './phone-mockup/phone-mockup.component';
 import { FormButtonComponent } from './form-button/form-button.component';
 import { LoadingComponent } from './loading/loading.component';
+import { CopyCommandComponent } from './copy-command/copy-command.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LoadingComponent } from './loading/loading.component';
     PhoneSvgComponent,
     PhoneMockupComponent,
     FormButtonComponent,
-    LoadingComponent
+    LoadingComponent,
+    CopyCommandComponent
   ],
   imports: [
     BrowserModule,
