@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div class="phone-mockup">
       <app-phone-svg></app-phone-svg>
+      <app-loading></app-loading>
     </div>
   `,
   styles: [

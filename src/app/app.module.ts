@@ -12,6 +12,7 @@ import { HomeSplashComponent } from './home-splash/home-splash.component';
 import { PhoneSvgComponent } from './phone-svg/phone-svg.component';
 import { PhoneMockupComponent } from './phone-mockup/phone-mockup.component';
 import { FormButtonComponent } from './form-button/form-button.component';
+import { LoadingComponent } from './loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormButtonComponent } from './form-button/form-button.component';
     HomeSplashComponent,
     PhoneSvgComponent,
     PhoneMockupComponent,
-    FormButtonComponent
+    FormButtonComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
