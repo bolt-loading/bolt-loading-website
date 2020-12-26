@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home',
   template: `
     <app-home-splash></app-home-splash>
+    <app-services-section></app-services-section>
   `,
   styles: [
   ]

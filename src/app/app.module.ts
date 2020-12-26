@@ -14,6 +14,13 @@ import { PhoneMockupComponent } from './phone-mockup/phone-mockup.component';
 import { FormButtonComponent } from './form-button/form-button.component';
 import { LoadingComponent } from './loading/loading.component';
 import { CopyCommandComponent } from './copy-command/copy-command.component';
+import { HandSvgComponent } from './hand-svg/hand-svg.component';
+import { WorldSvgComponent } from './world-svg/world-svg.component';
+import { CssSvgComponent } from './css-svg/css-svg.component';
+import { BookSvgComponent } from './book-svg/book-svg.component';
+import { ColorsSvgComponent } from './colors-svg/colors-svg.component';
+import { OpenSourceSvgComponent } from './open-source-svg/open-source-svg.component';
+import { ServicesSectionComponent } from './services-section/services-section.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +34,14 @@ import { CopyCommandComponent } from './copy-command/copy-command.component';
     PhoneMockupComponent,
     FormButtonComponent,
     LoadingComponent,
-    CopyCommandComponent
+    CopyCommandComponent,
+    HandSvgComponent,
+    WorldSvgComponent,
+    CssSvgComponent,
+    BookSvgComponent,
+    ColorsSvgComponent,
+    OpenSourceSvgComponent,
+    ServicesSectionComponent
   ],
   imports: [
     BrowserModule,
