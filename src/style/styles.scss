@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import '~bootstrap/scss/bootstrap';
 @import "./main/variables";
+@import "./main/icons";
 @import "./main/reset";
 @import "./main/typography";
 
@@ -13,3 +14,4 @@
 
 @import "./loading";
 @import "./phone-mockup";
+@import "./copy-command";
