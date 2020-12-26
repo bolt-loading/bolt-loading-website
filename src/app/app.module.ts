@@ -22,6 +22,7 @@ import { ColorsSvgComponent } from './colors-svg/colors-svg.component';
 import { OpenSourceSvgComponent } from './open-source-svg/open-source-svg.component';
 import { ServicesSectionComponent } from './services-section/services-section.component';
 import { DevelopmentEnvironmentsSectionComponent } from './development-environments-section/development-environments-section.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { DevelopmentEnvironmentsSectionComponent } from './development-environme
     ColorsSvgComponent,
     OpenSourceSvgComponent,
     ServicesSectionComponent,
-    DevelopmentEnvironmentsSectionComponent
+    DevelopmentEnvironmentsSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
