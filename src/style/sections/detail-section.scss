@@ -1,0 +1,24 @@
+.detail-section {
+  padding-top: 260px;
+  min-height: 900px;
+  margin-bottom: 300px;
+
+  h1 {
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  h3 {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .detail-section {
+    margin-top: 150px;
+    min-height: auto;
+    margin-bottom: 150px;
+  }
+}

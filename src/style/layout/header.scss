@@ -4,4 +4,18 @@ header {
   left: 0;
   right: 0;
   z-index: 2;
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  } 
+
+  .logo {
+    &.yellow {
+      path {
+        fill: $kournikova;
+      }
+    }
+  }
 }

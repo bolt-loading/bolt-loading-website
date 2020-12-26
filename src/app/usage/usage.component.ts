@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-installation',
+  selector: 'app-usage',
   template: `
-    <app-detail>
-      <h2>test</h2>
-    </app-detail>
+    <p>
+      usage works!
+    </p>
   `,
   styles: [
   ]
 })
-export class InstallationComponent implements OnInit {
+export class UsageComponent implements OnInit {
 
   constructor() { }
 

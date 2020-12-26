@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-installation',
+  selector: 'app-sidebar',
   template: `
-    <app-detail>
-      <h2>test</h2>
-    </app-detail>
+    <p>
+      sidebar works!
+    </p>
   `,
   styles: [
   ]
 })
-export class InstallationComponent implements OnInit {
+export class SidebarComponent implements OnInit {
 
   constructor() { }
 
