@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-installation',
   template: `
     <app-detail>
-      <h2>test</h2>
+      <h2>Installaiton</h2>
     </app-detail>
   `,
   styles: [

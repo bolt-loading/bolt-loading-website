@@ -3,9 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-usage',
   template: `
-    <p>
-      usage works!
-    </p>
+    <app-detail>
+      <h2>Usage</h2>
+    </app-detail>
   `,
   styles: [
   ]
