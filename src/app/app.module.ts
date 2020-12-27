@@ -26,6 +26,10 @@ import { FooterComponent } from './footer/footer.component';
 import { DetailComponent } from './detail/detail.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { UsageComponent } from './usage/usage.component';
+import { OptionsComponent } from './options/options.component';
+import { AnimationsComponent } from './animations/animations.component';
+import { BrowserComponent } from './browser/browser.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +55,11 @@ import { UsageComponent } from './usage/usage.component';
     FooterComponent,
     DetailComponent,
     SidebarComponent,
-    UsageComponent
+    UsageComponent,
+    OptionsComponent,
+    AnimationsComponent,
+    BrowserComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

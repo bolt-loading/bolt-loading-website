@@ -26,18 +26,8 @@ export const MENU = [
       },
       {
         id: "sidebar.api.classes.title",
-        title: "Classes",
-        url: "/classes"
-      },
-      {
-        id: "sidebar.api.attributes.title",
-        title: "Attributes",
-        url: "/attributes"
-      },
-      {
-        id: "sidebar.api.events.title",
-        title: "Events",
-        url: "/events"
+        title: "Animations",
+        url: "/animations"
       }
     ]
   },
