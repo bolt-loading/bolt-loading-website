@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="col-md-3">
             <app-sidebar></app-sidebar>
           </div>
-          <div class="col-md-8 col-md-offset-1">
+          <div class="col-md-8 offset-md-1">
             <h3>Installation</h3>
             <ng-content></ng-content>
           </div>
