@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsageComponent implements OnInit {
 
-  importCode: string = "import BoltLoading, { Loadings } from 'bolt-loading';";
+  importCode: string = "import BoltLoading from 'bolt-loading';";
 
   usageCode: string = "<BoltLoading isShow={true} />";
 
