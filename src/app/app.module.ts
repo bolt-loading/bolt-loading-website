@@ -30,6 +30,8 @@ import { OptionsComponent } from './options/options.component';
 import { AnimationsComponent } from './animations/animations.component';
 import { BrowserComponent } from './browser/browser.component';
 import { ContactComponent } from './contact/contact.component';
+import { SidebarMobileComponent } from './sidebar-mobile/sidebar-mobile.component';
+import { CaretDownSvgComponent } from './caret-down-svg/caret-down-svg.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +61,9 @@ import { ContactComponent } from './contact/contact.component';
     OptionsComponent,
     AnimationsComponent,
     BrowserComponent,
-    ContactComponent
+    ContactComponent,
+    SidebarMobileComponent,
+    CaretDownSvgComponent
   ],
   imports: [
     BrowserModule,

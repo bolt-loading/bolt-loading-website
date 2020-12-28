@@ -1,0 +1,31 @@
+.select-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+
+  select {
+      width: 100%;
+      appearance: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      color: $shark;
+      background-color: $kournikova;
+      border: 0px;
+      border-radius: 4px;
+      padding-right: 70px;
+  }
+
+  svg {
+      position: absolute;
+      pointer-events: none;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 30px;
+      height: 14px;
+      
+      path {
+          fill: $shark;
+      }
+  }
+}

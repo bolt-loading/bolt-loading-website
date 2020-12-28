@@ -7,6 +7,7 @@ import { Router } from "@angular/router";
   selector: 'app-sidebar',
   template: `
     <aside>
+      <app-sidebar-mobile></app-sidebar-mobile>
       <ul *ngFor="let item of data">
         <li><h4>{{item.title}}</h4></li>
         <li *ngFor="let subItem of item.links">
