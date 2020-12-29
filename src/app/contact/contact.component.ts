@@ -4,7 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-contact',
   template: `
     <app-detail>
-      <h2>Contact</h2>
+      <p>You can send mail for questions and problems. I am waiting every time your feedback. Please help me for better development my project. You can fast reach me in email.</p>
+      <a href="mailto:yasinburakkalkan@gmail.com" class="d-flex align-items-center mt-3"><app-mail-svg></app-mail-svg> yasinburakkalkan@gmail.com</a>
     </app-detail>
   `,
   styles: [

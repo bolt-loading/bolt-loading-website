@@ -38,6 +38,7 @@ import { FirefoxSvgComponent } from './firefox-svg/firefox-svg.component';
 import { OperaSvgComponent } from './opera-svg/opera-svg.component';
 import { SafariSvgComponent } from './safari-svg/safari-svg.component';
 import { ChromeSvgComponent } from './chrome-svg/chrome-svg.component';
+import { MailSvgComponent } from './mail-svg/mail-svg.component';
 
 @NgModule({
   declarations: [
@@ -75,7 +76,8 @@ import { ChromeSvgComponent } from './chrome-svg/chrome-svg.component';
     FirefoxSvgComponent,
     OperaSvgComponent,
     SafariSvgComponent,
-    ChromeSvgComponent
+    ChromeSvgComponent,
+    MailSvgComponent
   ],
   imports: [
     BrowserModule,
