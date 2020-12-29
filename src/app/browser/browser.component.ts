@@ -4,7 +4,38 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-browser',
   template: `
     <app-detail>
-      <h2>Browser</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <div class="browser-card">
+                <app-explorer-svg></app-explorer-svg>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="browser-card">
+                <app-edge-svg></app-edge-svg>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="browser-card">
+                <app-firefox-svg></app-firefox-svg>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="browser-card">
+                <app-opera-svg></app-opera-svg>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="browser-card">
+                <app-safari-svg></app-safari-svg>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="browser-card">
+                <app-chrome-svg></app-chrome-svg>
+            </div>
+        </div>
+      </div>
     </app-detail>
   `,
   styles: [
