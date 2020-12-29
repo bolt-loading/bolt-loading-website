@@ -4,7 +4,18 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-animations',
   template: `
     <app-detail>
-      <h2>Animations</h2>
+      <article class="detail-item">
+        <h4>AppleLoading</h4>
+        <p>Form button is disabled. If success fill form, form button is enabled.</p>
+      </article>
+      <article class="detail-item">
+        <h4>KitchenLoading</h4>
+        <p>Form button is disabled. If success fill form, form button is enabled.</p>
+      </article>
+      <article class="detail-item">
+        <h4>AtomLoading</h4>
+        <p>Form button is disabled. If success fill form, form button is enabled.</p>
+      </article>
     </app-detail>
   `,
   styles: [
