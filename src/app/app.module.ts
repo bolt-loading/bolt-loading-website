@@ -32,6 +32,12 @@ import { BrowserComponent } from './browser/browser.component';
 import { ContactComponent } from './contact/contact.component';
 import { SidebarMobileComponent } from './sidebar-mobile/sidebar-mobile.component';
 import { CaretDownSvgComponent } from './caret-down-svg/caret-down-svg.component';
+import { ExplorerSvgComponent } from './explorer-svg/explorer-svg.component';
+import { EdgeSvgComponent } from './edge-svg/edge-svg.component';
+import { FirefoxSvgComponent } from './firefox-svg/firefox-svg.component';
+import { OperaSvgComponent } from './opera-svg/opera-svg.component';
+import { SafariSvgComponent } from './safari-svg/safari-svg.component';
+import { ChromeSvgComponent } from './chrome-svg/chrome-svg.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +69,13 @@ import { CaretDownSvgComponent } from './caret-down-svg/caret-down-svg.component
     BrowserComponent,
     ContactComponent,
     SidebarMobileComponent,
-    CaretDownSvgComponent
+    CaretDownSvgComponent,
+    ExplorerSvgComponent,
+    EdgeSvgComponent,
+    FirefoxSvgComponent,
+    OperaSvgComponent,
+    SafariSvgComponent,
+    ChromeSvgComponent
   ],
   imports: [
     BrowserModule,
