@@ -39,6 +39,7 @@ import { OperaSvgComponent } from './opera-svg/opera-svg.component';
 import { SafariSvgComponent } from './safari-svg/safari-svg.component';
 import { ChromeSvgComponent } from './chrome-svg/chrome-svg.component';
 import { MailSvgComponent } from './mail-svg/mail-svg.component';
+import { CardItemComponent } from './card-item/card-item.component';
 
 @NgModule({
   declarations: [
@@ -77,7 +78,8 @@ import { MailSvgComponent } from './mail-svg/mail-svg.component';
     OperaSvgComponent,
     SafariSvgComponent,
     ChromeSvgComponent,
-    MailSvgComponent
+    MailSvgComponent,
+    CardItemComponent
   ],
   imports: [
     BrowserModule,
