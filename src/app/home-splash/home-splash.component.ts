@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home-splash',
   template: `
     <section class="home-splash-section">
-      <div class="container d-flex align-items-center">
+      <div class="container d-flex align-items-center flex-column flex-lg-row">
         <app-phone-mockup></app-phone-mockup>
         <article>
           <h1>Bolt Loading</h1>

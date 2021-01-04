@@ -23,3 +23,11 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: $md) {
+  footer {
+    strong {
+      margin-bottom: 50px;
+    }
+  }
+}

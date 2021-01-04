@@ -35,10 +35,38 @@
         margin-top: 30px;
         margin-bottom: 30px;
       }
-      
+
       .copy-command {
         margin-bottom: 60px;
       }
+    }
+  }
+}
+
+@media screen and (max-width: $lg) {
+  .home-splash-section {
+    .phone-mockup {
+      transform: rotate(-90deg);
+      margin-bottom: -140px;
+    }
+
+    .container {
+      article {
+        margin-left: 0px;
+        margin-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $md) {
+  .home-splash-section {
+    .phone-mockup {
+      display: none;
     }
   }
 }
