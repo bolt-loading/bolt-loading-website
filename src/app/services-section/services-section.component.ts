@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
     <section class="services-section">
       <div class="container">
         <div class="row">
-          <div class="col-md-4" *ngFor="let cardItem of cards">
+          <div class="col-md-6 col-lg-6 col-xl-4" *ngFor="let cardItem of cards">
             <app-card-item [card]="cardItem"></app-card-item>
           </div>
         </div>

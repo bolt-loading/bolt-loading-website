@@ -8,3 +8,16 @@
     color: $white;
   }
 }
+
+@media screen and (max-width: $md) {
+  .development-environments-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    i {
+      font-size: 40px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
+}
