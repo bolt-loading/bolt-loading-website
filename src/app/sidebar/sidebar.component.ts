@@ -8,7 +8,7 @@ import { Router } from "@angular/router";
   template: `
     <aside>
       <app-sidebar-mobile></app-sidebar-mobile>
-      <ul *ngFor="let item of data">
+      <ul *ngFor="let item of data" class="d-none d-sm-none d-md-block">
         <li><h4>{{item.title}}</h4></li>
         <li *ngFor="let subItem of item.links">
           <a routerLink="{{subItem.url}}" class="{{ current === subItem.url ? 'active' : null }}">{{subItem.title}}</a>

@@ -9,13 +9,31 @@ header {
     &:hover {
       text-decoration: none;
     }
-  } 
+  }
 
   .logo {
     &.yellow {
       path {
         fill: $kournikova;
       }
+    }
+  }
+}
+
+@media screen and (max-width: $md) {
+  header {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+    .container {
+      max-width: 100%;
+      padding: 0;
     }
   }
 }

@@ -15,10 +15,11 @@
     margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $md) {
   .detail-section {
     margin-top: 150px;
     min-height: auto;
     margin-bottom: 150px;
+    padding-top: 0;
   }
 }
