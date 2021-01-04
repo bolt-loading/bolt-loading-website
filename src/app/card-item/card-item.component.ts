@@ -5,7 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   template: `
     <div class="service-item">
       <figure>
-        {{card.icon}}
+        <app-services-icons [icon]="card.icon"></app-services-icons>
       </figure>
       <article>
         <h4>{{card.title}}</h4>

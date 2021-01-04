@@ -40,6 +40,7 @@ import { SafariSvgComponent } from './safari-svg/safari-svg.component';
 import { ChromeSvgComponent } from './chrome-svg/chrome-svg.component';
 import { MailSvgComponent } from './mail-svg/mail-svg.component';
 import { CardItemComponent } from './card-item/card-item.component';
+import { ServicesIconsComponent } from './services-icons/services-icons.component';
 
 @NgModule({
   declarations: [
@@ -79,7 +80,8 @@ import { CardItemComponent } from './card-item/card-item.component';
     SafariSvgComponent,
     ChromeSvgComponent,
     MailSvgComponent,
-    CardItemComponent
+    CardItemComponent,
+    ServicesIconsComponent
   ],
   imports: [
     BrowserModule,

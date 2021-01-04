@@ -22,32 +22,32 @@ export class ServicesSectionComponent implements OnInit {
     {
       title: "Easy Use",
       detail: "Descriptive and easy to read documentation.",
-      icon: "<app-hand-svg></app-hand-svg>"
+      icon: "hand"
     },
     {
       title: "Browser Support",
       detail: "Descriptive and easy to read documentation.",
-      icon: "<app-hand-svg></app-hand-svg>"
+      icon: "world"
     },
     {
       title: "No Javascript",
       detail: "Descriptive and easy to read documentation.",
-      icon: "<app-hand-svg></app-hand-svg>"
+      icon: "css"
     },
     {
       title: "Documentation",
       detail: "Descriptive and easy to read documentation.",
-      icon: "<app-hand-svg></app-hand-svg>"
+      icon: "book"
     },
     {
       title: "Design",
       detail: "Descriptive and easy to read documentation.",
-      icon: "<app-hand-svg></app-hand-svg>"
+      icon: "colors"
     },
     {
       title: "Open Source",
       detail: "Descriptive and easy to read documentation.",
-      icon: "<app-hand-svg></app-hand-svg>"
+      icon: "open-source"
     }
   ]
 
