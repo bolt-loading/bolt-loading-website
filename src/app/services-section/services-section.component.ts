@@ -20,18 +20,18 @@ export class ServicesSectionComponent implements OnInit {
 
   cards = [
     {
-      title: "Easy Use",
-      detail: "Descriptive and easy to read documentation.",
+      title: "Simple to use",
+      detail: "Easy to use and understandable options.",
       icon: "hand"
     },
     {
       title: "Browser Support",
-      detail: "Descriptive and easy to read documentation.",
+      detail: "Browser friendly animation.",
       icon: "world"
     },
     {
       title: "No Javascript",
-      detail: "Descriptive and easy to read documentation.",
+      detail: "No javascript, just css.",
       icon: "css"
     },
     {
@@ -41,12 +41,12 @@ export class ServicesSectionComponent implements OnInit {
     },
     {
       title: "Design",
-      detail: "Descriptive and easy to read documentation.",
+      detail: "Good and modern loading animations.",
       icon: "colors"
     },
     {
       title: "Open Source",
-      detail: "Descriptive and easy to read documentation.",
+      detail: "You can review my code and support me.",
       icon: "open-source"
     }
   ]
