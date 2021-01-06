@@ -41,6 +41,9 @@ import { ChromeSvgComponent } from './chrome-svg/chrome-svg.component';
 import { MailSvgComponent } from './mail-svg/mail-svg.component';
 import { CardItemComponent } from './card-item/card-item.component';
 import { ServicesIconsComponent } from './services-icons/services-icons.component';
+import { AppleLoadingComponent } from './apple-loading/apple-loading.component';
+import { KitchenLoadingComponent } from './kitchen-loading/kitchen-loading.component';
+import { AtomLoadingComponent } from './atom-loading/atom-loading.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +84,10 @@ import { ServicesIconsComponent } from './services-icons/services-icons.componen
     ChromeSvgComponent,
     MailSvgComponent,
     CardItemComponent,
-    ServicesIconsComponent
+    ServicesIconsComponent,
+    AppleLoadingComponent,
+    KitchenLoadingComponent,
+    AtomLoadingComponent
   ],
   imports: [
     BrowserModule,
