@@ -3,9 +3,13 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-atom-loading',
   template: `
-    <p>
-      atom-loading works!
-    </p>
+    <figure>
+      <div class="atom-loading">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
+      </div>
+    </figure>
   `,
   styles: [
   ]
