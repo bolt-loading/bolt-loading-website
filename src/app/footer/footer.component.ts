@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
     <footer>
       <div class="container d-flex align-items-center justify-content-between flex-column flex-md-row">
         <strong><a href="https://yasinkalkan.com/" target="blank">YASIN BURAK KALKAN</a> © 2020</strong>
-        <app-form-button [title]="'GET STARTED'" [color]="'yellow'"></app-form-button>
+        <a routerLink="/installation">
+          <app-form-button [title]="'GET STARTED'" [color]="'yellow'"></app-form-button>
+        </a>
       </div>
     </footer>
   `,

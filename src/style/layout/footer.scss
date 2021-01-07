@@ -3,6 +3,12 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
 
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   strong {
     font-size: 10px;
     font-weight: 400;
@@ -17,7 +23,6 @@ footer {
 
       &:hover {
         color: $kournikova;
-        text-decoration: none;
         opacity: 1;
       }
     }
