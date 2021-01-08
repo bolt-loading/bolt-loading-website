@@ -8,7 +8,7 @@ import { Router } from "@angular/router";
   template: `
     <section class="detail-section">
       <div class="container">
-        <h1 class="yellow large">Supreme Validation</h1>
+        <h1 class="yellow large">Bolt Loading</h1>
         <h2 class="small">{{h2}}</h2>
         <div class="row">
           <div class="col-md-3">

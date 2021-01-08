@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
       <article class="detail-item">
         <h4>NPM</h4>
         <p class="mb-4">You can download up to date npm package. Copy this code and paste code in console.</p>
-        <app-copy-command [code]="'npm install supreme-validation'"></app-copy-command>
+        <app-copy-command [code]="'npm install bolt-loading'"></app-copy-command>
       </article>
     </app-detail>
   `,
