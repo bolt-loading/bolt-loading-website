@@ -21,7 +21,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsageComponent implements OnInit {
 
-  importCode: string = "import BoltLoading from 'bolt-loading';";
+  importCode: string =
+`import 'bolt-loading/build/index.css';
+import BoltLoading from 'bolt-loading';`
 
   usageCode: string = "<BoltLoading isShow={true} />";
 
